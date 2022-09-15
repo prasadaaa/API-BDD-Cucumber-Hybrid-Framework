@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5821" started-at="2022-09-08T08:49:01 IST" finished-at="2022-09-08T08:49:07 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5821" started-at="2022-09-08T08:49:01 IST" finished-at="2022-09-08T08:49:07 IST">
+      <class name="tests.Runner5Parallel">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="setUpClass" is-config="true" duration-ms="673" started-at="2022-09-08T08:49:01 IST" finished-at="2022-09-08T08:49:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7354b8c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="5003" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get secific post in data driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="4984" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="5010" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get secific post in data driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at gluecode.StepDefs2.method1(StepDefs2.java:43)
+at ✽.status code is "400" as per "blank" in json response body(file:///D:/api_restassured/org.magnitia.restassured-BDDcucumber-pico-testng/src/test/resources/features/feature2.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="4982" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="5009" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at gluecode.StepDefs2.method3(StepDefs2.java:88)
+at ✽.status code is "200" as per "duplicate" and content type is "application/json"(file:///D:/api_restassured/org.magnitia.restassured-BDDcucumber-pico-testng/src/test/resources/features/feature2.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="4986" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at gluecode.StepDefs2.method3(StepDefs2.java:88)
+at ✽.status code is "400" as per "wrong" and content type is "application/json"(file:///D:/api_restassured/org.magnitia.restassured-BDDcucumber-pico-testng/src/test/resources/features/feature2.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5Parallel@24a35978]" name="runScenario" duration-ms="4995" started-at="2022-09-08T08:49:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-08T08:49:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get secific post in data driven"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[get posts and posts creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.Runner5Parallel@24a35978]" name="tearDownClass" is-config="true" duration-ms="91" started-at="2022-09-08T08:49:07 IST" finished-at="2022-09-08T08:49:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Runner5Parallel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
